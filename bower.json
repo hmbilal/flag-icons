@@ -1,0 +1,25 @@
+{
+  "name": "flag-icons",
+  "version": "1.0.0",
+  "homepage": "https://github.com/m-bilal/flag-icons",
+  "description": "Flags of world countries",
+  "keywords": [
+    "flags",
+    "world",
+    "country",
+    "flag",
+    "icons",
+    "css"
+  ],
+  "authors": [
+    "Hafiz Muhammad Bilal <bilal.it@live.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
