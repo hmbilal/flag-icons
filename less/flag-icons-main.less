@@ -1,0 +1,57 @@
+.fli-background {
+  background-size: contain;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+
+.fli {
+  .fli-background;
+  position: relative;
+  display: inline-block;
+  width: unit(4 / 3, em);
+  line-height: 1em;
+  &:before {
+    content: "\00a0";
+  }
+  &.fli-squared {
+    width: 1em;
+  }
+}
+
+.fli(@country) {
+  .fli-@{country} {
+    background-image: ~"url(@{fli-path}@{fli-big}/@{country}.svg)";
+    &.fli-squared {
+      background-image: ~"url(@{fli-path}@{fli-square}/@{country}.svg)";
+    }
+  }
+}
+
+
+.fli-2x{
+  font-size: 2em;
+}
+.fli-3x{
+  font-size: 3em;
+}
+.fli-4x{
+  font-size: 4em;
+}
+.fli-5x{
+  font-size: 5em;
+}
+.fli-6x{
+  font-size: 6em;
+}
+.fli-7x{
+  font-size: 7em;
+}
+.fli-8x{
+  font-size: 8em;
+}
+.fli-9x{
+  font-size: 9em;
+}
+.fli-10x{
+  font-size: 10em;
+}
