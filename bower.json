@@ -12,7 +12,6 @@
     "css"
   ],
   "main": [
-    "css/flag-icons.css",
     "css/flag-icons.min.css"
   ],
   "authors": [
