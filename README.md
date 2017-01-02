@@ -28,4 +28,4 @@ You can change size of flags upto `10x` by adding `fli-nx` class.
 ```
 
 # Demo
-http://m-bilal.github.io/flag-icons/
+http://hmbilal.github.io/flag-icons/
