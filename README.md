@@ -29,3 +29,10 @@ You can change size of flags upto `10x` by adding `fli-nx` class.
 
 # Demo
 http://hmbilal.github.io/flag-icons/
+
+# Hacktoberfest
+- Please feel free to browse the issues with label `hacktoberfest`.
+- You can report issues as well with the suitable labels.
+- Create pull requests with issue numbers.
+
+Support this repository by dropping a star.
