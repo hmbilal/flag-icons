@@ -19,5 +19,13 @@
   "bugs": {
     "url": "https://github.com/m-bilal/flag-icons/issues"
   },
-  "homepage": "https://github.com/m-bilal/flag-icons"
+  "homepage": "https://github.com/m-bilal/flag-icons",
+  "devDependencies": {
+    "coffeescript": "^2.6.1",
+    "grunt": "^1.4.1",
+    "grunt-contrib-connect": "^3.0.0",
+    "grunt-contrib-cssmin": "^4.0.0",
+    "grunt-contrib-less": "^3.0.0",
+    "grunt-contrib-watch": "^1.1.0"
+  }
 }
