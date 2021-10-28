@@ -5,10 +5,10 @@
 }
 
 .flg {
-  .flg-background;
+  @extend .flg-background;
   position: relative;
   display: inline-block;
-  width: unit((4 / 3), em);
+  width: (4 / 3) * 1em;
   line-height: 1em;
   &:before {
     content: "\00a0";
@@ -18,15 +18,14 @@
   }
 }
 
-.flg(@country) {
-  .flg-@{country} {
-    background-image: ~"url(@{flg-path}@{flg-big}/@{country}.svg)";
+@each $country in $countries {
+  .flg-#{$country} {
+    background-image: "url(#{$flgPath}#{$flgBig}/#{$country}.svg)";
     &.flg-squared {
-      background-image: ~"url(@{flg-path}@{flg-square}/@{country}.svg)";
+      background-image: "url(#{$flgPath}#{$flgSquare}/#{$country}.svg)";
     }
   }
 }
-
 
 .flg-2x{
   font-size: 2em;

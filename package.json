@@ -1,10 +1,10 @@
 {
   "name": "flag-icons",
-  "version": "1.0.1",
+  "version": "1.2",
   "description": "Flags of world countries",
   "repository": {
     "type": "git",
-    "url": "https://github.com/m-bilal/flag-icons.git"
+    "url": "https://github.com/hmbilal/flag-icons.git"
   },
   "keywords": [
     "flags",
@@ -14,18 +14,18 @@
     "icons",
     "css"
   ],
-  "author": "Hafiz Muhammad Bilal <bilal.it@live.com>",
+  "author": "Hafiz Muhammad Bilal <hafiz.mbilal@outlook.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/m-bilal/flag-icons/issues"
+    "url": "https://github.com/hmbilal/flag-icons/issues"
   },
-  "homepage": "https://github.com/m-bilal/flag-icons",
+  "homepage": "https://github.com/hmbilal/flag-icons",
   "devDependencies": {
-    "coffeescript": "^2.6.1",
-    "grunt": "^1.4.1",
-    "grunt-contrib-connect": "^3.0.0",
-    "grunt-contrib-cssmin": "^4.0.0",
-    "grunt-contrib-less": "^3.0.0",
-    "grunt-contrib-watch": "^1.1.0"
+    "node-sass": "^6.0.1"
+  },
+  "scripts": {
+    "build": "yarn build:dev && yarn build:min",
+    "build:dev": "node-sass scss/flag-icons.scss > css/flag-icons.css",
+    "build:min": "node-sass scss/flag-icons.scss > css/flag-icons.min.css --output-style compressed"
   }
 }
