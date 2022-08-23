@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/hmbilal/flag-icons",
   "devDependencies": {
-    "node-sass": "^6.0.1"
+    "node-sass": "^7.0.1"
   },
   "scripts": {
     "build": "yarn build:dev && yarn build:min",
